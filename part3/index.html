@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <form id="loginForm" onsubmit="validateForm(event)">
+        <h2>Login</h2>
+        <input type="" id="email" name="email" placeholder="Email" />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+        <button type="submit">Login</button>
+        <p class="notregistered">
+          Not registered? <a href="#">Create an account</a>
+        </p>
+        <div id="message"></div>
+      </form>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

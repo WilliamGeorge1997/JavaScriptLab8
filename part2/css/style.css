@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+#container {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+
+  width: 35%;
+}
+h1 {
+  color: #343a40;
+}
+#taskInputContainer {
+  margin-bottom: 16px;
+}
+#taskInput {
+  width: 50%;
+  height: 25px;
+}
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+#buttonsContainer {
+  margin-top: 8px;
+}
+#addTaskBtn,
+#clearTasksBtn {
+  padding: 8px 16px;
+  margin: 0 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#addTaskBtn:hover,
+#clearTasksBtn:hover {
+  background-color: #0050a6;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.completed {
+  background-color: lightgreen;
+}
+.btnContainer {
+  display: flex;
+}
+.completeBtn,
+.undoBtn,
+.deleteBtn {
+  padding: 8px 8px;
+  margin-left: 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.completeBtn {
+  background-color: #28a745;
+  color: #fff;
+}
+.undoBtn {
+  background-color: #ffc107;
+  color: #fff;
+}
+.deleteBtn {
+  background-color: #dc3545;
+  color: #fff;
+}
+.completeBtn:hover {
+  background-color: #1a682c;
+}
+.undoBtn:hover {
+  background-color: #8a6804;
+}
+.deleteBtn:hover {
+  background-color: #831f29;
+}
